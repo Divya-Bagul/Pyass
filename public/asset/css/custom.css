@@ -1,0 +1,119 @@
+
+
+.user-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+    border-radius: 50%;
+    display: block;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none ;
+}
+
+
+.user-avatar-nav {
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+   
+  .card-header{
+      font-weight: bold;
+      color:#000;
+  }
+
+  .card-body{
+    color:#000;
+  }
+  .fa-eye:before {
+	content: "\F06E"
+}
+
+.fa-eye-slash:before {
+	content: "\F070"
+}
+.fa-bullseye:before {
+	content: "\F140"
+}
+.fa-eyedropper:before {
+	content: "\F1FB"
+}   
+
+
+.hideShowPassword-wrapper {
+	width: 100%
+}
+
+.hideShowPassword-wrapper.pass-strength-visible .hideShowPassword-toggle {
+	top: 13px!important
+}
+
+.hideShowPassword-toggle {
+	background-color: transparent;
+	background-image: url(/images/wink.png);
+	background-image: url(/images/wink.svg), none;
+	background-position: 0;
+	background-repeat: no-repeat;
+	border-radius: .25em;
+	cursor: pointer;
+	font-size: 100%;
+	height: 44px;
+	margin: 0;
+	max-height: 100%;
+	padding: 0;
+	overflow: "hidden";
+	text-indent: -999em;
+	width: 46px;
+	margin-top: -18px!important;
+	top: 18px!important;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none
+}
+
+.hideShowPassword-toggle:focus,
+.hideShowPassword-toggle:hover {
+	border-color: #08c;
+	outline: transparent
+}
+
+.hideShowPassword-toggle-hide {
+	background-position: -44px
+}
+
+
+#avatar_container .dropzone {
+    border: 1px dashed rgba(0,0,0,.3);
+    background: hsla(0,0%,100%,.05);
+    height: 190px;
+    padding: 0;
+    border-radius: 3px;
+}
+#avatar_container .dz-message {
+    margin-top: -20px 1em 0;
+
+    padding: 2px;
+    text-align: center;
+}
+#avatar_container .dz-message.dz-default {
+    margin: 2em 2em;
+}
+/** ADD YOUR AWESOME CODES HERE **/
